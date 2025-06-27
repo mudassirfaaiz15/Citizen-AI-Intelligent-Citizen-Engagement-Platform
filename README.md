@@ -1,73 +1,55 @@
-# Welcome to your Lovable project
+# 🤖 Citizen AI – A Public Service Chatbot
 
-## Project info
+Citizen AI is an intelligent chatbot designed to assist users with queries related to various government services. Built using **IBM Watson Assistant**, this chatbot helps citizens interact with public service systems efficiently and quickly through natural language conversations.
 
-**URL**: https://lovable.dev/projects/4bbafd46-8835-4b2d-8e92-265a7fb93466
+---
 
-## How can I edit this code?
+## 🌐 Demo
 
-There are several ways of editing your application.
+🚀 Live Demo: [Insert your hosted project URL here]
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/4bbafd46-8835-4b2d-8e92-265a7fb93466) and start prompting.
+## 📌 Features
 
-Changes made via Lovable will be committed automatically to this repo.
+- ✅ Smart conversation with citizens using natural language
+- 🏛️ Handles queries about Aadhaar, PAN, Passport, Voter ID, and more
+- 🤖 Built with **Intents**, **Entities**, and **Dialog nodes** in IBM Watson Assistant
+- 🔒 24/7 access to public service information
+- 🌐 Deployable on web and mobile platforms
+- 🔧 Easy to extend with more services or languages
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 💻 Tech Stack
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+| Technology | Purpose |
+|------------|---------|
+| IBM Watson Assistant | Chatbot & NLP backend |
+| Firebase / Node.js / Python | Backend logic and hosting (as per your stack) |
+| HTML/CSS/JS / Lovable | Frontend UI |
+| IBM Cloud | Chatbot deployment |
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 📂 Folder Structure
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+```plaintext
+CitizenAI/
+│
+├── frontend/               # Web UI files (HTML, CSS, JS or Lovable output)
+├── backend/                # Optional backend for chat relay (Firebase/Node/Python)
+├── watson_workspace/       # Watson Assistant JSON export (Intents, Entities, Dialogs)
+├── assets/                 # Icons, logos, chatbot images
+└── README.md               # Project documentation
 
-# Step 3: Install the necessary dependencies.
-npm i
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+📚 Learnings & Skills
+💬 NLP using Watson Assistant
 
-**Edit a file directly in GitHub**
+🧠 Designing intents, entities, and dialog flow
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+🌐 Web development and cloud integration
 
-**Use GitHub Codespaces**
+🚀 Hosting and deploying AI apps
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/4bbafd46-8835-4b2d-8e92-265a7fb93466) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
